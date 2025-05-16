@@ -9,11 +9,10 @@ public class Person {
 	
 	//생성자
 	public Person() {
-		super();
+		
 	}
 	
 	public Person(String name, String hp, String company) {
-		super();
 		this.name = name;
 		this.hp = hp;
 		this.company = company;
@@ -47,7 +46,7 @@ public class Person {
 	//메소드 일반
 	@Override
 	public String toString() {
-		return "Person [name=" + name + ", hp=" + hp + ", company=" + company + "]";
+		return name + "," + hp + "," + company;
 	}
 	
 	
