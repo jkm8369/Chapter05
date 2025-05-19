@@ -35,10 +35,7 @@ public class Ex02 {
 				System.out.println("========================읽기 끝");
 				break;
 			}
-			//System.out.println(str);
-			bw.write(str);
-			bw.newLine();
-			
+			System.out.println(str);
 			
 		}
 		

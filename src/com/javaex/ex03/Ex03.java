@@ -16,7 +16,7 @@ public class Ex03 {
 		이효리, 010-2222-3333, 031-2323-4441 을 ,로 구분한다  --> 배열
 		문제에 있는 형식으로 출력한다
 		*/
-	
+		
 		
 		InputStream in = new FileInputStream("C:\\javaStudy\\PhoneDB.txt");
 		InputStreamReader isr = new InputStreamReader(in, "UTF-8");
@@ -27,9 +27,14 @@ public class Ex03 {
 			if(str == null) {
 				break;
 			}
-			
+			/*
+			String[] pInfo = str.split(",");
+			String name = pInfo[0];
+			String hp = pInfo[1];
+			String phone = pInfo[2];
+			*/
+			//System.out.println("이름:" + name + " 핸드폰:" + hp+ " 집 전화:" + phone);
 			System.out.println(str);
-			
 		}
 		
 		
